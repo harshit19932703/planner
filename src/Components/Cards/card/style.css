@@ -1,0 +1,55 @@
+.CardBlock {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.cardbody {
+  background: #f6f6f6;
+  border-radius: 8px;
+  text-transform: capitalize;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+}
+.cardbody:hover {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  background-image: linear-gradient(-180deg, #8963ffa6 0%, #0190ff96 100%);
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  line-height: 25px;
+}
+.body {
+  background: #f6f6f6;
+  padding: 10px;
+  cursor: grab;
+}
+
+.bodyextend {
+  background: #f6f6f6;
+  padding: 10px;
+  cursor: grab;
+  float: right;
+}
+
+.buttonClass {
+    margin: auto;
+    text-align: right;
+    padding: 13px;
+    border-top: 1px dashed grey;
+    width: 90%;
+    display: flex
+}
+.dateClass{
+    text-align: left;
+    flex: 1;
+    line-height: 31px;
+}

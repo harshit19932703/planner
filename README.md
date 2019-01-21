@@ -10,7 +10,7 @@ Yarn
 ```
 git clone https://github.com/harshit19932703/planner.git
 
-cd project
+cd planner
 
 yarn install
 

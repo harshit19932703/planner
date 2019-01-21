@@ -1,6 +1,6 @@
 ### Prerequisites
 ```
-NodeJS 
+NodeJS (>=8)
 
 Yarn 
 ```
@@ -14,5 +14,5 @@ cd planner
 
 yarn install
 
-yarn dev
+yarn start
 ```

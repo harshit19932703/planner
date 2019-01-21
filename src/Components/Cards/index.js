@@ -54,7 +54,7 @@ class Cards extends Component {
 
   addCardSave = () => {
     const { tasks, newCardDesc, newCardTitle } = this.state;
-    if (tasks.length > 1) {
+    if (tasks.length >= 1) {
       let id = tasks[tasks.length - 1].id + 1;
       tasks.push({
         id,
@@ -167,12 +167,14 @@ class Cards extends Component {
       <>
         <div className="container-drag">
           <div className="header">
-          <div>
+            <div>
               <Button onClick={this.addCard} outline color="danger">
                 + ADD A NEW TASK
               </Button>
             </div>
-            <div className="heading" style={{textAlign:'right'}}>YOUR PERSONAL PLANNER{" "}</div>
+            <div className="heading" style={{ textAlign: "right" }}>
+              YOUR PERSONAL PLANNER{" "}
+            </div>
           </div>
 
           <div

@@ -18,21 +18,27 @@ class Cards extends Component {
       tasks: [
         {
           id: 1,
-          title: "first card",
-          description: "cafewfcacasc",
+          title: "Meeting with UI/UX",
+          description: "Offers Page discussion and agenda for CMS Dashboard",
           category: "all"
         },
         {
           id: 2,
-          title: "second card",
-          description: "fewfcacasc",
+          title: "Sailing Schedules",
+          description: "Call Anuj and Manish to get the list of schedules",
           category: "all"
         },
         {
           id: 3,
-          title: "third card",
-          description: "cafewc",
+          title: "Release dates for New Search",
+          description: "Discussion with stakeholders and rest for the new search release",
           category: "todo"
+        },
+        {
+          id: 4,
+          title: "Assignment",
+          description: "Complete week planner Proto. till Monday",
+          category: "completed"
         }
       ],
       showModal: false,
